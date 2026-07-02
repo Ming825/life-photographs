@@ -50,9 +50,9 @@ const SITE_DATA = {
     },
     {
       title: "2025年 · 智信馆",
-      photo: "assets/img/group/group4.svg",
-      date: "2022年5月",
-      desc: "送别2025届毕业生",
+      photo: "assets/img/group/group2025-zhixinguan.jpg",
+      date: "2025年6月",
+      desc: "",
     },
     {
       title: "2024年",
@@ -72,7 +72,7 @@ const SITE_DATA = {
     },
     {
       title: "李杰生日聚会",
-      photo: "assets/img/activities/activity2023.svg",
+      photo: "assets/img/activities/activity2023.jpg",
       date: "2024年10月",
       desc: "难得的一次集体团建。",
     },
