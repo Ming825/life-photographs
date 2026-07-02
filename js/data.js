@@ -7,137 +7,76 @@
 const SITE_DATA = {
   lab: {
     name: "EE360 实验室",
-    fullName: "EE360 Laboratory",
-    slogan: "求实创新 · 协同共进",
+    slogan: "岁月匆匆，光影留痕",
     intro:
-      "EE360 实验室致力于电子信息领域的前沿研究，涵盖集成电路设计、信号与信息处理、电力电子、通信系统等方向。这里记录着实验室成员的科研与生活瞬间。",
-    contact: {
-      address: "示例大学 电子信息学院 EE360 实验室",
-      email: "ee360lab@example.edu.cn",
-      phone: "010-00000000",
-    },
+      "没有严肃的介绍，这里只想留住我们一起走过的日子——每一张熟悉的脸，每一次并肩的合影，都留给大家慢慢回忆。",
+    closing: "感谢每一个和我们一起度过这段时光的人。愿常回来看看。",
+    // 如果有想补充的照片，可以写一个联系方式，留空则不显示这一行
+    email: "ee360lab@example.edu.cn",
   },
 
-  // 研究方向筛选标签
-  directions: [
-    "全部",
-    "集成电路设计",
-    "信号处理",
-    "电力电子",
-    "通信系统",
-    "人工智能硬件",
-    "微波技术",
-    "光电子器件",
-    "嵌入式系统",
-  ],
-
-  // 研究生个人照片展示
+  // 历届同学：按年份（届）分组的个人照片，year 越大越靠前展示
   students: [
-    {
-      name: "张明",
-      photo: "assets/img/students/student1.svg",
-      grade: "2022级 博士生",
-      direction: "集成电路设计",
-      bio: "研究方向为高速模数转换器设计。",
-    },
-    {
-      name: "李思",
-      photo: "assets/img/students/student2.svg",
-      grade: "2023级 硕士生",
-      direction: "信号处理",
-      bio: "研究方向为阵列信号处理算法。",
-    },
-    {
-      name: "王浩",
-      photo: "assets/img/students/student3.svg",
-      grade: "2021级 博士生",
-      direction: "电力电子",
-      bio: "研究方向为高效率功率变换器。",
-    },
-    {
-      name: "赵雅",
-      photo: "assets/img/students/student4.svg",
-      grade: "2023级 硕士生",
-      direction: "通信系统",
-      bio: "研究方向为无线通信系统优化。",
-    },
-    {
-      name: "陈军",
-      photo: "assets/img/students/student5.svg",
-      grade: "2022级 硕士生",
-      direction: "人工智能硬件",
-      bio: "研究方向为神经网络加速器架构。",
-    },
-    {
-      name: "刘洋",
-      photo: "assets/img/students/student6.svg",
-      grade: "2024级 硕士生",
-      direction: "微波技术",
-      bio: "研究方向为毫米波天线设计。",
-    },
-    {
-      name: "周敏",
-      photo: "assets/img/students/student7.svg",
-      grade: "2021级 博士生",
-      direction: "光电子器件",
-      bio: "研究方向为硅基光电子集成器件。",
-    },
-    {
-      name: "吴静",
-      photo: "assets/img/students/student8.svg",
-      grade: "2024级 硕士生",
-      direction: "嵌入式系统",
-      bio: "研究方向为低功耗嵌入式系统设计。",
-    },
+    { name: "刘洋", photo: "assets/img/students/student6.svg", year: "2024级", note: "" },
+    { name: "吴静", photo: "assets/img/students/student8.svg", year: "2024级", note: "" },
+
+    { name: "李思", photo: "assets/img/students/student2.svg", year: "2023级", note: "" },
+    { name: "赵雅", photo: "assets/img/students/student4.svg", year: "2023级", note: "" },
+
+    { name: "张明", photo: "assets/img/students/student1.svg", year: "2022级", note: "" },
+    { name: "陈军", photo: "assets/img/students/student5.svg", year: "2022级", note: "" },
+
+    { name: "王浩", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
+    { name: "周敏", photo: "assets/img/students/student7.svg", year: "2021级", note: "" },
   ],
 
-  // 实验室合照展示
+  // 合影时光：历年实验室合影
   groupPhotos: [
     {
-      title: "2025年实验室迎新合影",
+      title: "2025年 · 迎新合影",
       photo: "assets/img/group/group1.svg",
       date: "2025年9月",
-      desc: "新学期迎新会，欢迎新同学加入实验室大家庭。",
+      desc: "又一批新面孔加入了这个大家庭。",
     },
     {
-      title: "2024年毕业季合影",
+      title: "2024年 · 毕业季合影",
       photo: "assets/img/group/group2.svg",
       date: "2024年6月",
-      desc: "毕业季与毕业生的合影留念。",
+      desc: "毕业季，和大家的合影留念。",
     },
     {
-      title: "2023年学术年会合影",
+      title: "2023年 · 我们的日常",
       photo: "assets/img/group/group3.svg",
       date: "2023年11月",
-      desc: "实验室年度学术交流会全体合影。",
+      desc: "普普通通的一天，恰好拍了张合影。",
     },
     {
-      title: "实验室日常合影",
+      title: "2022年 · 组会后的合影",
       photo: "assets/img/group/group4.svg",
-      date: "2023年5月",
-      desc: "组会结束后的日常合影。",
+      date: "2022年5月",
+      desc: "组会结束，大家凑在一起拍了这张照片。",
     },
   ],
 
-  // 实验室动态 / 活动剪影
+  // 生活瞬间：团建 / 日常花絮
   activities: [
     {
-      title: "实验室学术交流会",
+      title: "赶论文的深夜",
       photo: "assets/img/activities/activity1.svg",
       date: "2025年3月",
-      desc: "邀请业界专家分享前沿技术进展。",
+      desc: "灯还亮着，大家都还没走。",
     },
     {
-      title: "科研团队建设活动",
+      title: "秋游团建",
       photo: "assets/img/activities/activity2.svg",
       date: "2024年10月",
-      desc: "户外团建活动，增进团队凝聚力。",
+      desc: "难得的一次集体出行。",
     },
     {
       title: "实验室开放日",
       photo: "assets/img/activities/activity3.svg",
       date: "2024年5月",
-      desc: "面向本科生的实验室开放参观日。",
+      desc: "那天来了好多人，很热闹。",
     },
   ],
 };
