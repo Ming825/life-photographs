@@ -1,0 +1,166 @@
+:root {
+  --ee360-primary: #b5495b;
+  --ee360-accent: #e07a5f;
+  --ee360-ink: #4a3a2f;
+  --ee360-cream: #fdf6ec;
+  --ee360-soft: #f6ead9;
+}
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ee360-ink);
+  background-color: var(--ee360-cream);
+}
+
+/* 导航栏 */
+#main-nav {
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+  background-color: rgba(253, 246, 236, 0.96);
+}
+#main-nav.scrolled {
+  box-shadow: 0 2px 12px rgba(74, 58, 47, 0.1);
+}
+#main-nav .navbar-brand img {
+  height: 34px;
+  width: 34px;
+}
+#main-nav .navbar-brand {
+  color: var(--ee360-ink);
+}
+#main-nav .nav-link {
+  font-weight: 500;
+  color: #6b5648;
+}
+#main-nav .nav-link:hover,
+#main-nav .nav-link.active {
+  color: var(--ee360-primary);
+}
+@media (max-width: 991.98px) {
+  #main-nav .navbar-collapse {
+    background-color: var(--ee360-cream);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    box-shadow: 0 8px 20px rgba(74, 58, 47, 0.15);
+  }
+}
+
+/* Hero */
+.hero {
+  background: url("../assets/img/brand/hero-bg.svg") center/cover no-repeat;
+  color: #fff8ee;
+  padding: 150px 0 100px;
+}
+.hero h1 {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", "Ma Shan Zheng", serif;
+  font-weight: 700;
+  font-size: clamp(2.1rem, 4.2vw, 3.2rem);
+  letter-spacing: 0.04em;
+}
+.hero .lead {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.9;
+}
+.hero .badge-slogan {
+  background-color: rgba(255, 248, 238, 0.2);
+  border: 1px solid rgba(255, 248, 238, 0.45);
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+}
+
+/* Section */
+.section-title {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+  font-weight: 700;
+  color: var(--ee360-primary);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  color: #8a7563;
+}
+section {
+  scroll-margin-top: 80px;
+}
+.bg-soft {
+  background-color: var(--ee360-soft);
+}
+
+/* 年份分隔 */
+.year-divider {
+  gap: 16px;
+}
+.year-label {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ee360-primary);
+  white-space: nowrap;
+}
+.year-line {
+  height: 1px;
+  background: linear-gradient(to right, rgba(181, 73, 91, 0.35), transparent);
+}
+
+/* 拍立得照片卡片 */
+.polaroid {
+  display: block;
+  background-color: #ffffff;
+  padding: 10px 10px 14px;
+  border-radius: 4px;
+  box-shadow: 0 6px 16px rgba(74, 58, 47, 0.14);
+  transform: rotate(var(--rotate, 0deg));
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-decoration: none;
+  color: inherit;
+}
+.polaroid:hover {
+  transform: rotate(0deg) translateY(-4px) scale(1.02);
+  box-shadow: 0 14px 28px rgba(74, 58, 47, 0.2);
+}
+.polaroid-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+.polaroid-wide .polaroid-photo {
+  aspect-ratio: 3 / 2;
+}
+.polaroid-caption {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+  font-size: 1.05rem;
+  color: var(--ee360-ink);
+}
+
+/* 结语 */
+footer {
+  background-color: var(--ee360-soft);
+  color: var(--ee360-ink);
+}
+footer h5 {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", serif;
+  color: var(--ee360-primary);
+  font-size: 1.3rem;
+}
+.closing-text {
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: #6b5648;
+}
+footer a {
+  color: var(--ee360-primary);
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--ee360-accent);
+}

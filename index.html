@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EE360 实验室 · 时光相册</title>
+  <meta name="description" content="EE360 实验室时光相册：历届同学、合影时光、生活瞬间">
+
+  <!-- Bootstrap 5 (本地引入，避免依赖外部 CDN) -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav id="main-nav" class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#top">
+        <img src="assets/img/brand/logo.svg" alt="logo">
+        <span id="nav-lab-name">EE360 实验室</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#students">历届同学</a></li>
+          <li class="nav-item"><a class="nav-link" href="#group">合影时光</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activities">生活瞬间</a></li>
+          <li class="nav-item"><a class="nav-link" href="#closing">写在最后</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero text-center">
+    <div class="container">
+      <span class="badge badge-slogan rounded-pill px-3 py-2 mb-3" id="lab-slogan"></span>
+      <h1 id="lab-name" class="mb-3"></h1>
+      <p class="lead mx-auto" id="lab-intro"></p>
+    </div>
+  </header>
+
+  <!-- 历届同学：按年份排列的个人照片 -->
+  <section id="students" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">历届同学</h2>
+        <p class="section-subtitle">时光荏苒，青春常驻在这一张张照片里</p>
+      </div>
+      <div id="students-by-year"></div>
+    </div>
+  </section>
+
+  <!-- 合影时光：历年实验室合影 -->
+  <section id="group" class="py-5 bg-soft">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">合影时光</h2>
+        <p class="section-subtitle">定格下的，那些一起站在一起的瞬间</p>
+      </div>
+      <div id="group-grid" class="row g-4 justify-content-center"></div>
+    </div>
+  </section>
+
+  <!-- 生活瞬间：团建 / 日常花絮 -->
+  <section id="activities" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">生活瞬间</h2>
+        <p class="section-subtitle">团建、日常，还有那些不经意的小确幸</p>
+      </div>
+      <div id="activities-grid" class="row g-4 justify-content-center"></div>
+    </div>
+  </section>
+
+  <!-- 结语 -->
+  <footer id="closing" class="py-5">
+    <div class="container text-center">
+      <h5 class="mb-3" id="footer-lab-name"></h5>
+      <p class="closing-text mb-3" id="footer-closing"></p>
+      <p class="mb-4" id="footer-email-wrap">如果你也有想留下的照片，欢迎发给我们：
+        <a id="footer-email" href="#"></a>
+      </p>
+      <p class="mb-0 small">&copy; <span id="footer-year"></span> EE360</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
