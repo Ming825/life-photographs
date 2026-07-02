@@ -24,7 +24,7 @@ const SITE_DATA = {
     { name: "史玉明", photo: "assets/img/students/sym.jpg", year: "2023级", note: "" },
 
     { name: "李泓羿", photo: "assets/img/students/student1.svg", year: "2022级", note: "" },
-    { name: "钱舒杨", photo: "assets/img/students/2022.jpg", year: "2022级", note: "" },
+    { name: "钱舒杨", photo: "assets/img/students/2022.JPG", year: "2022级", note: "" },
     { name: "李纪元", photo: "assets/img/students/student5.svg", year: "2022级", note: "" },
 
     { name: "于逸尘", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
