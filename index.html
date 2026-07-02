@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EE360 实验室 · Life Photographs</title>
+  <meta name="description" content="EE360 实验室风采展示：研究生个人照片、实验室合影、实验室动态">
+
+  <!-- Bootstrap 5 (本地引入，避免依赖外部 CDN) -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav id="main-nav" class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#top">
+        <img src="assets/img/brand/logo.svg" alt="logo">
+        <span id="nav-lab-name">EE360 实验室</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#about">实验室简介</a></li>
+          <li class="nav-item"><a class="nav-link" href="#students">研究生风采</a></li>
+          <li class="nav-item"><a class="nav-link" href="#group">实验室合影</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activities">实验室动态</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero text-center">
+    <div class="container">
+      <span class="badge badge-slogan rounded-pill px-3 py-2 mb-3" id="lab-slogan"></span>
+      <h1 id="lab-name" class="mb-3"></h1>
+      <p class="lead mx-auto" id="lab-intro"></p>
+    </div>
+  </header>
+
+  <!-- 实验室简介 -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <h2 class="section-title">关于 EE360 实验室</h2>
+          <p class="section-subtitle mt-3">
+            我们是一支专注于电子信息前沿技术研究的团队，本页面用于展示实验室成员风采与集体记忆，
+            包含<strong>研究生个人照片</strong>、<strong>实验室合影</strong>与<strong>实验室动态</strong>等模块。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 研究生个人照片展示 -->
+  <section id="students" class="py-5 bg-soft">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">研究生风采</h2>
+        <p class="section-subtitle">EE360 实验室研究生个人照片展示</p>
+      </div>
+      <div id="direction-filters" class="d-flex flex-wrap justify-content-center gap-2 mb-4"></div>
+      <div id="students-grid" class="row g-4"></div>
+    </div>
+  </section>
+
+  <!-- 实验室合照展示 -->
+  <section id="group" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">实验室合影</h2>
+        <p class="section-subtitle">历年实验室集体合照</p>
+      </div>
+      <div id="group-grid" class="row g-4"></div>
+    </div>
+  </section>
+
+  <!-- 实验室动态 -->
+  <section id="activities" class="py-5 bg-soft">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">实验室动态</h2>
+        <p class="section-subtitle">学术交流、团队建设等活动剪影</p>
+      </div>
+      <div id="activities-grid" class="row g-4"></div>
+    </div>
+  </section>
+
+  <!-- 页脚 / 联系我们 -->
+  <footer id="contact" class="py-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <h5 class="text-white mb-3" id="footer-lab-name"></h5>
+          <p class="mb-1">地址：<span id="footer-address"></span></p>
+          <p class="mb-1">邮箱：<a id="footer-email" href="#"></a></p>
+          <p class="mb-0">电话：<span id="footer-phone"></span></p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">&copy; <span id="footer-year"></span> EE360 Laboratory. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="533" viewBox="0 0 800 533">
+  <defs>
+    <linearGradient id="w7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="533" fill="url(#w7)"/>
+  <circle cx="208.0" cy="278.49249999999995" r="39.975" fill="#ffffff" fill-opacity="0.85"/><path d="M 152.035 434.395 Q 208.0 314.46999999999997 263.965 434.395 Z" fill="#ffffff" fill-opacity="0.85"/><circle cx="304.0" cy="278.49249999999995" r="39.975" fill="#ffffff" fill-opacity="0.85"/><path d="M 248.035 434.395 Q 304.0 314.46999999999997 359.965 434.395 Z" fill="#ffffff" fill-opacity="0.85"/><circle cx="400.0" cy="278.49249999999995" r="39.975" fill="#ffffff" fill-opacity="0.85"/><path d="M 344.035 434.395 Q 400.0 314.46999999999997 455.965 434.395 Z" fill="#ffffff" fill-opacity="0.85"/><circle cx="496.0" cy="278.49249999999995" r="39.975" fill="#ffffff" fill-opacity="0.85"/><path d="M 440.035 434.395 Q 496.0 314.46999999999997 551.965 434.395 Z" fill="#ffffff" fill-opacity="0.85"/><circle cx="592.0" cy="278.49249999999995" r="39.975" fill="#ffffff" fill-opacity="0.85"/><path d="M 536.035 434.395 Q 592.0 314.46999999999997 647.965 434.395 Z" fill="#ffffff" fill-opacity="0.85"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="39.975" fill="#ffffff" font-weight="700">实验室学术交流会</text>
+  <text x="50%" y="94%" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="23.985" fill="#ffffff" fill-opacity="0.85">Academic Seminar</text>
+</svg>
