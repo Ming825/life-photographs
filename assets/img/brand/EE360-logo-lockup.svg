@@ -1,0 +1,37 @@
+<svg width="360" height="120" viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EE360 实验室">
+  <title>EE360 实验室</title>
+  <defs>
+    <linearGradient id="ee360-bg2" x1="10" y1="10" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2575fc"/>
+      <stop offset="100%" stop-color="#6a11cb"/>
+    </linearGradient>
+    <linearGradient id="ee360-blade2" x1="60" y1="18" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.68"/>
+    </linearGradient>
+    <linearGradient id="ee360-text" x1="150" y1="0" x2="330" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2575fc"/>
+      <stop offset="100%" stop-color="#6a11cb"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="60" cy="60" r="58" fill="url(#ee360-bg2)"/>
+  <circle cx="60" cy="60" r="49" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.4" stroke-dasharray="2.4 5.2"/>
+  <circle cx="60" cy="60" r="49" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.6" stroke-dasharray="14 251" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+
+  <g>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(0 60 60)"/>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(60 60 60)"/>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(120 60 60)"/>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(180 60 60)"/>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(240 60 60)"/>
+    <path d="M60 18 C67 18 73 23 75 30 L60 60 L45 30 C47 23 53 18 60 18 Z" fill="url(#ee360-blade2)" transform="rotate(300 60 60)"/>
+  </g>
+
+  <circle cx="60" cy="60" r="10.5" fill="#ffffff"/>
+  <circle cx="60" cy="11" r="2.6" fill="#ffffff"/>
+
+  <text x="150" y="58" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#1c1c2b" letter-spacing="1">EE</text>
+  <text x="212" y="58" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="url(#ee360-text)" letter-spacing="1">360</text>
+  <text x="151" y="80" font-family="'PingFang SC','Microsoft YaHei', sans-serif" font-size="16" font-weight="500" fill="#6b6b7a" letter-spacing="3">实验室 · 时光相册</text>
+</svg>
