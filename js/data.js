@@ -20,35 +20,39 @@ const SITE_DATA = {
     { name: "刘洋", photo: "assets/img/students/student6.svg", year: "2024级", note: "" },
     { name: "吴静", photo: "assets/img/students/student8.svg", year: "2024级", note: "" },
 
-    { name: "李思", photo: "assets/img/students/student2.svg", year: "2023级", note: "" },
-    { name: "赵雅", photo: "assets/img/students/student4.svg", year: "2023级", note: "" },
+    { name: "王颖婕", photo: "assets/img/students/wyj.jpg", year: "2023级", note: "" },
+    { name: "史玉明", photo: "assets/img/students/sym.jpg", year: "2023级", note: "" },
 
-    { name: "张明", photo: "assets/img/students/student1.svg", year: "2022级", note: "" },
-    { name: "陈军", photo: "assets/img/students/student5.svg", year: "2022级", note: "" },
+    { name: "李泓羿", photo: "assets/img/students/student1.svg", year: "2022级", note: "" },
+    { name: "钱舒杨", photo: "assets/img/students/2022.jpg", year: "2022级", note: "" },
+    { name: "李纪元", photo: "assets/img/students/student5.svg", year: "2022级", note: "" },
 
-    { name: "王浩", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
-    { name: "周敏", photo: "assets/img/students/student7.svg", year: "2021级", note: "" },
+    { name: "于逸尘", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
+    { name: "华润恺", photo: "assets/img/students/student7.svg", year: "2021级", note: "" },
+    { name: "李杰", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
+    { name: "杨彦彪", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
+    { name: "占岩文", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
   ],
 
   // 合影时光：历年实验室合影
   groupPhotos: [
     {
-      title: "2025年 · 迎新合影",
-      photo: "assets/img/group/group1.svg",
-      date: "2025年9月",
-      desc: "又一批新面孔加入了这个大家庭。",
+      title: "2026年",
+      photo: "assets/img/group/group2026.png",
+      date: "2026年6月",
+      desc: "",
     },
     {
-      title: "2024年 · 毕业季合影",
-      photo: "assets/img/group/group2.svg",
+      title: "2025年",
+      photo: "assets/img/group/group2025.jpg",
+      date: "2025年6月",
+      desc: "",
+    },
+    {
+      title: "2024年",
+      photo: "assets/img/group/group2024.jpg",
       date: "2024年6月",
-      desc: "毕业季，和大家的合影留念。",
-    },
-    {
-      title: "2023年 · 我们的日常",
-      photo: "assets/img/group/group3.svg",
-      date: "2023年11月",
-      desc: "普普通通的一天，恰好拍了张合影。",
+      desc: "",
     },
     {
       title: "2022年 · 组会后的合影",
