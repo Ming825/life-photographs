@@ -8,8 +8,6 @@
 
   <!-- Bootstrap 5 (本地引入，避免依赖外部 CDN) -->
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <!-- GLightbox -->
-  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
   <!-- 自定义样式 -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
@@ -91,9 +89,49 @@
     </div>
   </footer>
 
+  <!-- 可翻页相册 -->
+  <div id="photo-album" class="album-overlay" aria-hidden="true">
+    <button class="album-backdrop" type="button" tabindex="-1" data-album-close aria-label="关闭相册"></button>
+    <section class="album-dialog" role="dialog" aria-modal="true" aria-labelledby="album-title">
+      <header class="album-header">
+        <div>
+          <p class="album-kicker mb-1">EE360 · 时光相册</p>
+          <h2 id="album-title" class="album-title mb-0"></h2>
+        </div>
+        <div class="album-header-actions">
+          <span id="album-counter" class="album-counter" aria-live="polite"></span>
+          <button class="album-close" type="button" data-album-close aria-label="关闭相册">×</button>
+        </div>
+      </header>
+
+      <div id="album-stage" class="album-stage">
+        <button id="album-prev" class="album-arrow album-prev" type="button" aria-label="上一张">‹</button>
+
+        <div class="album-book">
+          <span class="album-sheet album-sheet-back" aria-hidden="true"></span>
+          <span class="album-sheet album-sheet-middle" aria-hidden="true"></span>
+          <figure id="album-page" class="album-page">
+            <div class="album-photo-mat">
+              <img id="album-image" src="" alt="">
+            </div>
+            <figcaption class="album-caption">
+              <strong id="album-photo-title"></strong>
+              <span id="album-photo-meta"></span>
+              <p id="album-photo-description"></p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <button id="album-next" class="album-arrow album-next" type="button" aria-label="下一张">›</button>
+      </div>
+
+      <div id="album-thumbnails" class="album-thumbnails" aria-label="相册缩略图"></div>
+      <p class="album-hint mb-0">点击两侧箭头、按键盘方向键，或在照片上左右滑动来翻页</p>
+    </section>
+  </div>
+
   <!-- Scripts -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
