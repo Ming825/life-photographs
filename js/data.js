@@ -29,7 +29,7 @@ const SITE_DATA = {
 
     { name: "于逸尘", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
     { name: "华润恺", photo: "assets/img/students/student7.svg", year: "2021级", note: "" },
-    { name: "李杰", photo: "assets/img/students/2021lj.jpg.", year: "2021级", note: "" },
+    { name: "李杰", photo: "assets/img/students/2021lj.jpg", year: "2021级", note: "" },
     { name: "杨彦彪", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
     { name: "占岩文", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
   ],
@@ -64,6 +64,12 @@ const SITE_DATA = {
 
   // 生活瞬间：团建 / 日常花絮
   activities: [
+    {
+      title: "2025年校庆返校日",
+      photo: "assets/img/activities/activity2025.jpg",
+      date: "2025年5月",
+      desc: "已毕业的师兄师姐回校看望朱老师",
+    },
     {
       title: "西安",
       photo: "assets/img/activities/2024-xian.jpg",
