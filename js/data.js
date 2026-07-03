@@ -28,7 +28,7 @@ const SITE_DATA = {
     { name: "李纪元", photo: "assets/img/students/2022ljy.jpg", year: "2022级", note: "" },
 
     { name: "于逸尘", photo: "assets/img/students/student3.svg", year: "2021级", note: "" },
-    { name: "华润恺", photo: "assets/img/students/student7.svg", year: "2021级", note: "" },
+    { name: "华润恺", photo: "assets/img/students/2021hrk.jpg", year: "2021级", note: "" },
     { name: "李杰", photo: "assets/img/students/2021lj.jpg", year: "2021级", note: "" },
     { name: "杨彦彪", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
     { name: "占岩文", photo: "assets/img/students/student5.svg", year: "2021级", note: "" },
