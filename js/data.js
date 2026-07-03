@@ -65,6 +65,12 @@ const SITE_DATA = {
   // 生活瞬间：团建 / 日常花絮
   activities: [
     {
+      title: "2025年校庆返校日",
+      photo: "assets/img/activities/activity2025.jpg",
+      date: "2025年5月",
+      desc: "已毕业的师兄师姐回校看望朱老师",
+    },
+    {
       title: "西安",
       photo: "assets/img/activities/2024-xian.jpg",
       date: "2024年10月",
