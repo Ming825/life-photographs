@@ -19,8 +19,9 @@ const SITE_DATA = {
 
   // 历届同学：按年份（届）分组的个人照片，year 越大越靠前展示
   students: [
-    { name: "刘洋", photos: ["assets/img/students/student6.svg"], year: "2024级", note: "" },
-    { name: "吴静", photos: ["assets/img/students/student8.svg"], year: "2024级", note: "" },
+    { name: "胡育杰", photos: ["assets/img/students/student6.svg"], year: "2024级", note: "" },
+    { name: "杨同朔", photos: ["assets/img/students/student7.svg"], year: "2024级", note: "" },
+    { name: "成翔宇", photos: ["assets/img/students/student8.svg"], year: "2024级", note: "" },
 
     { name: "王颖婕", photos: ["assets/img/students/wyj.jpg"], year: "2023级", note: "" },
     {
@@ -45,8 +46,8 @@ const SITE_DATA = {
     { name: "于逸尘", photos: ["assets/img/students/2021yyc.jpg"], year: "2021级", note: "" },
     { name: "华润恺", photos: ["assets/img/students/2021hrk.jpg"], year: "2021级", note: "" },
     { name: "李杰", photos: ["assets/img/students/2021lj.jpg"], year: "2021级", note: "" },
-    { name: "杨彦彪", photos: ["assets/img/students/student5.svg"], year: "2021级", note: "" },
-    { name: "占岩文", photos: ["assets/img/students/student5.svg"], year: "2021级", note: "" },
+    { name: "杨彦彪", photos: ["assets/img/students/2021yyb.jpg"], year: "2021级", note: "" },
+    { name: "占岩文", photos: ["assets/img/students/student6.svg"], year: "2021级", note: "" },
   ],
 
   // 合影时光：历年实验室合影
